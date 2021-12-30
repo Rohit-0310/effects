@@ -28,6 +28,8 @@ export const Todo = () => {
             headers: {
                 "content-type": "application/json"
             }
+        }).then(()=>{
+            getTodo();
         })
             ;
     }
